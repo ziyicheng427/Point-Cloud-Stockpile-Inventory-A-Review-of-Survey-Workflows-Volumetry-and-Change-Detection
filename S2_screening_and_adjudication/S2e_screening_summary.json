@@ -1,0 +1,31 @@
+{
+  "status": "DUAL_SCREENING_AND_ADJUDICATION_COMPLETE",
+  "dual_screened_candidate_records": 472,
+  "expected_rows": 472,
+  "independent_agreement_n": 416,
+  "independent_disagreement_n": 56,
+  "observed_exact_agreement": 0.881356,
+  "observed_exact_agreement_percent": 88.1,
+  "cohen_kappa_multiclass": 0.837091,
+  "kappa_reported_in_manuscript": 0.837,
+  "final_title_abstract_routing_counts": {
+    "ABSTRACT-ONLY": 7,
+    "DATA-RESOURCE": 3,
+    "DIRECT-EMPIRICAL": 120,
+    "EXCLUDE-OTHER": 178,
+    "EXCLUDE-OVERLAP": 1,
+    "MOVE-SUPPORT": 2,
+    "NOT-RETRIEVED": 10,
+    "SPECIALIST-REVIEW": 2,
+    "SUPPORT-BACKGROUND": 35,
+    "TRANSFER-METHOD": 114
+  },
+  "note": "These are adjudicated title/abstract routing classifications, not final full-report inclusion roles. They must not be used as manuscript evidence denominators or final PRISMA inclusion counts.",
+  "files_sha256": {
+    "S2a_reviewer1_decisions_472.csv": "df8045b47740aa813b8b22d1785e8aac13b01292d78e339d574a02fe50ee2196",
+    "S2b_reviewer2_final_decisions_472.csv": "579066c770978675651cec333379e660cd6ea6b1a53ddc6f1b07475018528242",
+    "S2c_final_adjudicated_ledger_472.csv": "27f1656c64172a4b0f1a51ddeecf184b3092898dac260fb48b40d708790cf1e0",
+    "S2d_second_reviewer_independence_declaration.pdf": "3a0947d26a7e9b17e9ceda54fa94391b85f3af303bad1488e67f6c51f5a16841"
+  },
+  "submission_package_generated": "2026-09-08"
+}

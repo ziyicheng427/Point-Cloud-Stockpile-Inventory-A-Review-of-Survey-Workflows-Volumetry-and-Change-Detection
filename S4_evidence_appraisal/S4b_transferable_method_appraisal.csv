@@ -1,0 +1,55 @@
+﻿study_id,study,T_reference_independence,S_scene_realism,R_repetition_breadth,C_chain_completeness,U_uncertainty_failure_treatment,P_reproducibility_reporting
+E09,Nuth–Kääb,L,H,L,H,L,L
+E10,X-ICP,L,S,L,H,L,L
+E11,GenZ-ICP,L,S,L,H,S,L
+E23,M3C2,S,H,S,H,L,L
+E24,M3C2-EP,S,H,S,H,L,L
+E25,4D objects-by-change,S,H,L,H,S,L
+E26,SfM precision maps,L,H,S,H,L,L
+E27,Wheaton DoD,S,H,S,H,L,L
+E29,Vosselman slope filter,S,H,S,H,S,L
+E30,Axelsson adaptive TIN,S,H,S,H,S,L
+E32,improved morphological filter,L,H,L,H,S,L
+E33,cloth simulation filter,L,H,L,H,S,L
+E43,StreetMapper validation,L,S,S,H,S,S
+E44,MLS permanent test field,L,S,L,H,L,L
+E45,LOAM,L,S,L,H,S,L
+E46,handheld forest scanners,L,S,S,H,S,L
+E48,ZEB-REVO cave mapping,L,S,S,H,S,L
+E49,LeGO-LOAM,L,S,L,H,S,L
+E50,Scan Context,L,S,L,H,S,L
+E51,LIO-SAM,L,S,L,H,S,L
+E52,FAST-LIO2,L,S,L,H,S,L
+E53,KISS-ICP,L,S,L,H,S,L
+E54,NavVis/BLK2GO,L,S,S,H,L,L
+E61,offshore inspection,S,L,H,H,S,S
+E62,Spot confined navigation,S,S,H,H,S,S
+E69,DEM co-registration,L,H,S,H,L,L
+E88,mobile UAV earthwork,H,S,H,S,H,S
+E90,legged online LiDAR-SLAM,L,L,S,H,L,L
+E91,active industrial mapping,S,L,S,H,L,L
+E92,VILENS,L,L,L,H,L,L
+E93,scaffold robot dog,S,L,S,H,S,S
+E94,ANYmal harsh environments,S,L,S,H,L,L
+E98,repeat-TLS processing,H,H,S,S,L,L
+E99,channel-change workflow,S,H,S,S,L,L
+E102,decoupled quadruped mapping,S,S,H,H,S,L
+E103,quadruped BIM inspection,S,L,S,H,S,L
+E104,SLAM2REF,L,S,S,H,L,L
+E106,LT-mapper,L,S,L,H,L,L
+E108,lifelong mapping preprint,S,S,S,H,S,S
+E120,Sarlin multi-epoch change,L,H,S,H,L,L
+E135,LiMo-Calib preprint,S,S,S,H,S,L
+E136,underground-mine quadruped navigation preprint,S,L,L,H,L,L
+E155,registration benchmark,L,S,L,H,L,L
+E160,long-term LiDAR localization,L,L,S,H,L,L
+E217,multi-temporal registration benchmark,L,H,S,H,L,L
+E239,cross-modal MLS registration,S,S,S,H,S,L
+E242,DC3DCD,S,H,S,H,S,L
+E259,DuLoc,L,L,S,H,L,L
+E276,PPK multi-epoch SfM,L,H,L,H,L,L
+E343,repeated laser-scan building change,S,H,S,H,L,L
+E361,high-frequency 4D rockfall change,L,H,L,H,L,L
+E379,stereo V-SLAM change detection,L,S,S,H,S,L
+E381,feature-correspondence registration,L,S,L,H,S,L
+E398,transformer point-cloud change detection,S,H,S,H,S,L

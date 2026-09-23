@@ -1,0 +1,51 @@
+﻿domain,item,status,guidance
+Target quantity,Volume definition,Required,State the exact volumetric measurand and whether depressions or overhangs are included.
+Target quantity,Pile identity,Required,Define the object or pile instance to which the reported volume refers.
+Target quantity,Toe or footprint rule,Required,Report how the horizontal support and boundary are defined.
+Target quantity,Lower reference surface,Required,"Identify whether the base is directly observed, surveyed when empty, interpolated, fitted, or otherwise modelled."
+Target quantity,Measurement epoch,Required,State the acquisition time or epoch represented by each estimate.
+Acquisition,Platform and sensor,Required,"Report platform, sensor model, relevant sensing configuration, and mounting arrangement."
+Acquisition,Calibration,Required,Report intrinsic/extrinsic calibration relevant to the measurement chain.
+Acquisition,Positioning or trajectory method,Required,State GNSS/control/SLAM/odometry method and reference frame.
+Acquisition,Route and speed,Recommended,Report route geometry and platform speed where they affect sampling or motion distortion.
+Acquisition,Viewpoint distribution,Recommended,"Describe angular/viewpoint coverage around the pile, including crest visibility."
+Acquisition,Environmental conditions,Recommended,"Report conditions likely to affect image matching, ranging, dust, illumination, or access."
+Acquisition,Surface coverage,Required,"Report observed coverage, major gaps, occluded regions, or an equivalent completeness indicator."
+Processing,Filtering procedures,Required,Report outlier/noise filtering and any ground or transient-object removal.
+Processing,Spatial resolution,Required,"Report grid, mesh, voxel, or equivalent resolution."
+Processing,Registration sequence,Required,Describe within-session and cross-session registration steps.
+Processing,Stable reference regions,Required,"Identify fixed structures, targets, or unchanged surfaces used to constrain registration."
+Processing,Segmentation method,Required,Report pile delineation or instance-segmentation procedure and principal parameters.
+Processing,Surface completion,Required,"Identify interpolation, hole filling, extrapolation, or other completion applied to unobserved regions."
+Processing,Principal parameters,Required,Provide parameters needed to reproduce the final geometry and volume calculation.
+Validation,Reference quantity,Required,"State whether the reference is known volume, independent surface/survey, operational quantity, or inter-method comparison."
+Validation,Reference uncertainty,Required,Report uncertainty or known limitations of the reference where available.
+Validation,Pile size and material,Required,Report scale and material because both can affect reconstruction and density.
+Validation,Number of repetitions,Required,State the number of repeated acquisitions or reconstructions.
+Validation,Sensor remounting,Recommended,Include remount tests when deployment requires repeated installation or payload exchange.
+Validation,Unchanged-repeat experiment,Recommended,Quantify apparent change or volume variation when the physical pile is unchanged.
+Validation,Controlled-change experiment,Recommended,"Use independently measured addition, removal, or relocation where multi-temporal performance is claimed."
+Metrics,Absolute volume difference,Recommended,Report signed or absolute difference with the reference quantity clearly identified.
+Metrics,Relative volume difference,Recommended,State the denominator explicitly.
+Metrics,Repeatability,Required,Report dispersion across repeated complete acquisitions where repeated surveying is an intended use.
+Metrics,Boundary sensitivity,Recommended,Quantify sensitivity to toe/footprint displacement or alternative boundary definitions.
+Metrics,Stable-region registration residual,Recommended,Evaluate alignment on independent stable features where possible.
+Metrics,Missed or spurious change,Recommended,Report false negative/positive local change when spatial change detection is evaluated.
+Metrics,Computational performance,Recommended,Report processing time or compute requirements when operational automation is claimed.
+Uncertainty,Principal uncertainty contributions,Required,"Identify sensor, trajectory, registration, surface, boundary, lower-surface, and other relevant components."
+Uncertainty,Propagation or empirical method,Required,"State analytical, Monte Carlo, repeated-survey, or other uncertainty-propagation method."
+Uncertainty,Reconciliation residual uncertainty,Required when reconciliation is reported,"Report or estimate uncertainty of r = ΔV_pile − ΔV_spatial, including covariance between branches where relevant."
+Uncertainty,Spatial detection threshold,Required,"For change mapping, report the local or global level of detection and how it is derived."
+Uncertainty,Support/confidence rule,Required,Define when a measurement or local change is considered sufficiently observed and credible.
+Inventory,Per-pile V1 and V2,Required,Report independently accepted single-epoch volumes when net inventory change is claimed.
+Inventory,Net change V2-V1,Required,Retain sign and clearly identify the two epochs.
+Inventory,Density source and uncertainty,Required if mass is reported,Separate geometric volume from the material model used for mass conversion.
+Inventory,Spatially integrated credible change,Required when spatial change is reported,Report the signed sum of accepted local-change volumes over valid common support; do not substitute it for independent net inventory change.
+Inventory,Reconciliation residual,Recommended,Compare inventory-level net change with spatially integrated credible local change.
+Inventory,Uncertainty-normalised reconciliation residual,Recommended when estimable,"Report ρ_r = r/u_r, or an equivalent dimensionless consistency diagnostic, and state any application-specific interpretation threshold prospectively."
+Reproducibility,Software and versions,Required,Report software packages and relevant versions.
+Reproducibility,Coordinate reference system,Required,State datum/reference frame and transformations needed to reproduce alignment.
+Reproducibility,Data availability,Recommended,Identify retained raw or processed data and access conditions where possible.
+Reproducibility,Parameter settings,Required,"Provide settings necessary for reconstruction, segmentation, registration, and integration."
+Reproducibility,Exclusions and interventions,Required,"Document incomplete surveys, manual interventions, exclusions, and recovery actions."
+Reproducibility,Code availability,Recommended,Provide code or workflow implementation where possible.
